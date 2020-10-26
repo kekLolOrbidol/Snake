@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/tv_start_input_text"
+          android:layout_width="54dp"
+          android:layout_height="54dp"
+          android:layout_margin="5dp"
+          android:gravity="center"
+          android:textSize="30sp"
+          android:fontFamily="sans-serif"
+          android:textStyle="italic"
+          android:textColor="@color/colorPrimaryDark"
+          android:lineSpacingExtra="6sp"
+          tools:text="0"/>

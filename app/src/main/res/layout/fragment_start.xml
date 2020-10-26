@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/capcha_snake"/>
+
+        <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/px_recaptcha_logo_svg"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_start_output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_start_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <CheckBox
+            android:id="@+id/cb_start_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Я не робот"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="4dp"/>
+
+    <TextView
+            android:id="@+id/tv_start_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:padding="19dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.12"
+            android:lineSpacingExtra="5sp"
+            android:text="CONTINUE"/>
+
+    <TextView android:layout_width="0dp"
+              android:layout_weight="0.1"
+              android:layout_height="0dp"/>
+
+    <TextView
+            android:id="@+id/tv_start_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7sp"
+            android:text="robo"
+            android:textColor="@android:color/transparent"/>
+
+</LinearLayout>

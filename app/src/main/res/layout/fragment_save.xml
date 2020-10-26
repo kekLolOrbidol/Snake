@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:lineSpacingExtra="12sp"
+            android:gravity="end"
+            android:text="Save result"/>
+
+    <TextView
+            android:id="@+id/tv_save_scores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="34sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:lineSpacingExtra="11sp"
+            android:gravity="end"
+            tools:text="234"/>
+
+    <EditText
+            android:id="@+id/et_save_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:background="#000"
+            android:gravity="center"
+            android:hint="INPUT YOUR NAME"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+    <ImageView
+            android:id="@+id/iv_save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_save_black_24dp"
+            android:background="@drawable/group_82"
+            android:padding="16dp"
+            android:layout_margin="16dp"/>
+
+
+</LinearLayout>

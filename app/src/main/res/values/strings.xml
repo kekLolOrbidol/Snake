@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WINNING_SNAKE_2311</string>
+    <string name="app_pref">app_settings</string>
+    <string name="app_pref_show">app_settings_show</string>
+    <string name="facebook_app_id">771341590090626</string> <string name="fb_login_protocol_scheme">fb771341590090626</string>
+
+</resources>

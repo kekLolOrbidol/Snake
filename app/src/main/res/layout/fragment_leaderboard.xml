@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+        <ImageView
+                android:id="@+id/iv_leader_back_btn"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/backward_arrow"
+                android:padding="16dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="56dp"
+                android:layout_marginEnd="56dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:letterSpacing="0.12"
+                android:lineSpacingExtra="6sp"
+                android:text="LEADERBOARD"/>
+
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_70"/>
+
+    <TextView
+            android:id="@+id/tv_leader_empty_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.12"
+            android:lineSpacingExtra="6sp"
+            android:text="No results"
+            android:layout_margin="50dp"
+            android:gravity="center"
+            android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_leaders"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>

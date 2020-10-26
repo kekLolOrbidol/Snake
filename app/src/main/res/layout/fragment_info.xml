@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:padding="24dp">
+
+    <ImageView
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:lineSpacingExtra="9sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="Winline"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp">
+
+        <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/group_63"
+                android:layout_margin="4dp"/>
+
+        <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/group_63"
+                android:layout_margin="4dp"/>
+
+        <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/group_63"
+                android:layout_margin="4dp"/>
+
+        <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/group_63"
+                android:layout_margin="4dp"/>
+
+        <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/group_63"
+                android:layout_margin="4dp"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:lineSpacingExtra="9sp"
+            android:text="Описание:"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:lineSpacingExtra="5sp"
+            android:text="Наша цель – стать синонимом высшей степени надежности и качества обслуживания на всемирном рынке букмекерских компаний. Мы хотим, чтобы именно Winline у любого игрока в мире ассоциировался с букмекером, который платит всегда и без вариантов."/>
+
+    <TextView
+            android:id="@+id/tv_info_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold"
+            android:background="#000"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:lineSpacingExtra="9sp"
+            android:text="Установить"/>
+
+</LinearLayout>
