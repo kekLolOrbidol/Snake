@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.Log
 import com.facebook.applinks.AppLinkData
 import com.snake.eat.finish.features.Preference
+import com.snake.eat.finish.notif.Msg
 
 
 class LinksHelper(val context: Context) {
@@ -28,7 +29,7 @@ class LinksHelper(val context: Context) {
             if (appLinkData != null && appLinkData.targetUri != null) {
                 if (appLinkData.argumentBundle["target_url"] != null) {
                     Log.e("DEEP", "SRABOTAL")
-                    //CustomMessage().scheduleMsg(context)
+                    Msg().scheduleMsg(context)
                     exec = true
                     val tree = appLinkData.argumentBundle["target_url"].toString()
                     val uri = tree.split("$")
